@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cheer Up, My Love!</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/confetti-js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Cheer Up, My Cutuu! 🌻🐾❤️</h1>
+        <p>
+          You’re beautiful, strong, and loved. Let’s turn this day around! 🌸 I
+          made this cute website for you cutessyyyy. I know today was not good
+          for you but i can't just sit here and do nothing. Here's a little bit
+          from my side to make you feel about today and i believe in you bachcha
+          and I am so proud of you for going through today ♥♥ You are trully the
+          best cutuuuu ♥♥
+        </p>
+      </header>
+
+      <!-- Welcome Section -->
+      <section class="welcome">
+        <h2>Welcome, Sunshine! 🌞</h2>
+        <img src="./catt.gif" alt="Cute Cat" class="welcome-img" />
+        <p>Hope This will make you feel better bachcha 😊</p>
+      </section>
+
+      <!-- Relaxing Music Section -->
+      <section class="music-player">
+        <h2>Relax and Unwind 🎶</h2>
+        <p>
+          Here's Your Favourite Music Cutuuuu, tap on the play and see below as
+          the song will keep playing in the background 💕💕
+        </p>
+        <audio controls>
+          <source src="./song.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+      </section>
+
+      <!-- Cat Game Section -->
+      <section class="game-section">
+        <h2>
+          This is the Game: Catch the Cats! 🐾 In this the cats are appearing
+          cutuu, tap on the cat to score a point and the timer has already begun
+          bachcha 💕 Tap on the cats hehe 💕💕
+        </h2>
+        <div id="game-area">
+          <!-- Cats will be dynamically added here -->
+        </div>
+        <p id="timer">Time Left: 60s</p>
+        <p id="score">Score: 0</p>
+      </section>
+
+      <!-- Quiz Game Section -->
+      <section class="quiz-section">
+        <h2>
+          How Well Do You Know Yourself Bachchaa? Here's a quiz for you cutuuu
+          hope you love it 🌟
+        </h2>
+        <div class="quiz-box">
+          <div id="quiz-progress">Question 1 of 5</div>
+          <div id="quiz-question"></div>
+          <div id="quiz-options"></div>
+        </div>
+      </section>
+
+      <section id="gifts-section" class="gifts-section">
+        <div class="gifts-message">
+          <h2>Your Heartwarming Gifts</h2>
+          <p>
+            Because you deserve all the love and happiness in the world, here
+            are some little surprises for you. Each one is a token of my
+            affection and care, meant to bring joy to your heart and remind you
+            how special you are to me. 💖
+          </p>
+        </div>
+
+        <div class="gifts-images">
+          <div class="gift-item">
+            <img src="./sunflower.gif" alt="Gift 1" class="gift-image" />
+            <p class="gift-description">
+              Here's sunflower for you bachcha, You deserve garden full of
+              sunflowers 💕
+            </p>
+          </div>
+          <div class="gift-item">
+            <img src="./kinder.png" alt="Gift 2" class="gift-image" />
+            <p class="gift-description">
+              Here's Harry Potter Kinder Joy for you, ik this virtual but I'll
+              give you in real soon cutessyyyy 💕💕
+            </p>
+          </div>
+          <div class="gift-item">
+            <img src="./cat.gif" alt="Gift 3" class="gift-image" />
+            <p class="gift-description">
+              Our Happy Happy Happy Cat cutuuu hehe 💕💕
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <button class="magic-button" id="magicButton">
+        Here's a message for you bachcha 💖
+      </button>
+
+      <div class="popup hidden" id="popup">
+        <div class="gift-box" id="giftBox">
+          <img src="./msg.gif" alt="Gift Box" class="giftgif" />
+          <p>Click the message cutiee 💖💖</p>
+        </div>
+        <div class="message hidden" id="message">
+          <div class="pic">
+            <img src="./octo.jpg" alt="Sweet Message Image" />
+          </div>
+          <p>
+            Hieeee my cutesttttt of all cutuuuu 💖💖💖💖 Here's a big hug for
+            youuuu 🫂🫂 You are the best princesss 💕 I know aaj ka din acha nhi
+            agya bachcha but I am so proud of youu for going through it and
+            still being yourself 💕 You were not feeling good when you came
+            back, I hope this website made you feel a little better about today
+            bachcha 💕💕 You are loved, you are cared, you are blessed, you are
+            strong, you are emotionally and mentally matured and aur vo rickshaw
+            vala bkl saala i hate himm ughhhh choro htaoo usse gnda prani h vo.
+            Kl is your rest day cutuu and kl poore din you to rest and recharge
+            yourself okieee hehe 💕💕 I missed you bahut saaara bachcha aaj 💕
+            Pta hai i replayed our moments too: Our first data on 7 November,
+            Our walks, Our roof walk hehe, When i surprised you and the smile
+            came at your faceee hayeeeee 💕 You look bahut payara when you smile
+            bachcha 💕💕 kisi ki nazar na lage tumhe 🧿 I hope you loved this
+            surprise cutuu 💖💖 I got thoda sa time itna hi kr paya but I hope
+            you are feeling a little better now bachcha 💖💖 Bad days come and
+            go but your dediction and how strong you are is what matters and you
+            bachcha are very very strong and blessed 💖💖 I love you cutuu 💖💖
+            I miss you 💖💖
+          </p>
+          <button class="close-popup" id="closePopup">Close</button>
+        </div>
+      </div>
+
+      <footer>
+        <p>Made with love and sunflowers 🌻 just for you! 💕</p>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
